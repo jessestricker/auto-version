@@ -1,0 +1,5 @@
+[plugins]
+kotlin = "org.jetbrains.kotlin.multiplatform:2.2.0"
+
+[libraries]
+kotest-assertions-core = "io.kotest:kotest-assertions-core:5.9.1"
