@@ -8,6 +8,7 @@ on:
 jobs:
   gradle:
     name: Run Gradle Checks
+    permissions: { }
     strategy:
       matrix:
         os: [ ubuntu-24.04, macos-15, windows-2025 ]
