@@ -10,7 +10,7 @@ jobs:
     name: Gradle
     strategy:
       matrix:
-        os: [ ubuntu-latest, macos-latest,windows-latest ]
+        os: [ ubuntu-24.04, macos-15, windows-2025 ]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
